@@ -1,0 +1,174 @@
+body{
+    background-color: rgb(5, 05, 05);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.713);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+
+i{
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+    color: #fbbf24;
+    font-weight: 400;
+    transition: 0.2s;
+}
+a:hover{
+    color: #ffcf56;
+}
+
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+#header{
+    display: flex;
+    justify-content: start;
+    margin-top: 80px;
+}
+.text-header{
+    max-width: 600px;
+}
+.bio{
+    margin-bottom: 16px;
+}
+
+
+#projects{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+.text-projects{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+.container-project-row > img{
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+    border-width: px;
+    border-color: #2b2b2b;
+}
+.container-project-row > p{
+    line-height: 0.5;
+}
+.container-project-row{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+}
+.tight-line-height{
+    line-height: 1;
+}
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.project-text p{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+#personal{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+
+.content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+.button-a{
+    background-color: #ffffff08;
+    color: hsla(0, 0%, 100%, 0.705);
+    border: none;
+    padding: 5px 25px;
+    font-size: 13px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+}
+.button-a:hover{
+    background-color: #2d2d2d;
+}
+
+.email{
+    color: hsla(0, 0%, 100%, 0.708);
+
+}
+.email:hover{
+    color: #8d8d8d;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+    .content > img{
+        height: 60px;
+    }
+    .container-project-row{
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+}
+
+@media (min-width: 600px) {
+    h1{
+        font-size: 25px;
+    }
+    button{
+        font-size: 16px;
+    }
+    
+    .content > img{
+        height: 80px;
+    }
+}
+
+@media (min-width: 900px) {
+    body{
+        margin-left: 160px;
+        margin-right: 160px;
+    }  
+}
+
